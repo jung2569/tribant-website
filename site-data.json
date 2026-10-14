@@ -1,0 +1,24 @@
+{
+  "brand": "TRIBANT",
+  "company": "주식회사 더트리반트",
+  "representative": "송규범",
+  "registration": "684-81-04079",
+  "address": "경기도 시흥시 서울대학로 59-69, 912호 (배곧동, 배곧테크노밸리)",
+  "openingDate": "2026.07.15",
+  "collaborationUrl": "https://jeongyul.kr/case-billiards-startup-venture",
+  "phone": null,
+  "email": null,
+  "domain": null,
+  "formEndpoint": null,
+  "images": {
+    "tool": null,
+    "case": "assets/prototype.webp",
+    "founder": null
+  },
+  "prices": [
+    "3만원대",
+    "5만원 이하",
+    "1만원 이하"
+  ],
+  "launchDate": null
+}
