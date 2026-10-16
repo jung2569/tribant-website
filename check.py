@@ -13,7 +13,7 @@ s=(p/'index.html').read_text(encoding='utf-8')
 c=Check();c.feed(s)
 assert all(x in c.ids for x in c.links)
 assert len(c.ids)==len(set(c.ids))
-assert c.h1==1 and '{{' not in s and 'noindex' in s
+assert c.h1==1 and '{{' not in s and 'noindex' not in s and 'content="index,follow"' in s
 assert '94.5' not in s and '36명 대상' in s
 assert (p/'app.js').exists() and (p/'style.css').exists()
-print('Passed: internal links, unique IDs, single H1, noindex, survey context, assets.')
+print('Passed: internal links, unique IDs, single H1, index/follow, survey context, assets.')
